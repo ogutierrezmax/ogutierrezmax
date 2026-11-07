@@ -7,7 +7,7 @@
     <a href="https://github.com/ogutierrezmax">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
     </a>
-    <a href="https://linkedin.com/in/ogutierrezmax">
+    <a href="https://www.linkedin.com/in/max-gutierrez-149885422/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="mailto:ogutierrezmax@gmail.com">

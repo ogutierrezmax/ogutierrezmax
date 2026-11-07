@@ -20,7 +20,7 @@
 
 ### 👨‍💻 About Me
 
-I am a **Software Engineering Student** and passionate builder focused on engineering high-efficiency software, developer utilities, and modern web applications. I bridge computer science and software design principles with real-world execution, automation, and AI-assisted engineering heuristics.
+I am a **Software Engineering Student** and passionate builder focused on engineering high-efficiency software, developer utilities, and modern web applications. I bridge software design principles with real-world execution, automation, and AI-assisted engineering heuristics.
 
 - 🎓 **Education:** Software Engineering Student — exploring systems design, clean architecture, and modern fullstack technologies.
 - 🔭 **Currently Building:** Offline-first productivity utilities, markdown-driven systems, and agentic workflows.

@@ -151,9 +151,3 @@ Sou **Estudante de Engenharia de Software** e desenvolvedor apaixonado por criar
 <a href="https://github.com/ogutierrezmax">
   <img alt="GitHub Contribution Graph" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ogutierrezmax&theme=tokyonight&hide_border=true&hide_title=true" width="100%" />
 </a>
-
----
-
-<div align="center">
-  <sub>Criado por <a href="https://github.com/ogutierrezmax">Max Gutierrez</a> (com IA). Sinta-se à vontade para explorar meus repositórios!</sub>
-</div>

@@ -88,31 +88,31 @@
         to { opacity: 1; }
       }
 
-      /* Animação com oscilação vibrante e estilosa: Amarelo -> Roxo -> Laranja -> Amarelo */
+      /* Tons claros do sol e do céu do banner para manter contraste com a paisagem. */
       @keyframes shiftChipColors {
         0% {
-          stroke: #FFD000;
-          color: #FFD000;
-          fill: #FFD000;
-          filter: drop-shadow(0 0 5px rgba(255, 208, 0, 0.6));
+          stroke: #FFF4D0;
+          color: #FFF4D0;
+          fill: #FFF4D0;
+          filter: drop-shadow(0 0 5px rgba(255, 244, 208, 0.6));
         }
         33% {
-          stroke: #C77DFF;
-          color: #C77DFF;
-          fill: #C77DFF;
-          filter: drop-shadow(0 0 5px rgba(199, 125, 255, 0.6));
+          stroke: #FFE0A6;
+          color: #FFE0A6;
+          fill: #FFE0A6;
+          filter: drop-shadow(0 0 5px rgba(255, 224, 166, 0.6));
         }
         66% {
-          stroke: #FF5400;
-          color: #FF5400;
-          fill: #FF5400;
-          filter: drop-shadow(0 0 5px rgba(255, 84, 0, 0.6));
+          stroke: #FFD7B0;
+          color: #FFD7B0;
+          fill: #FFD7B0;
+          filter: drop-shadow(0 0 5px rgba(255, 215, 176, 0.6));
         }
         100% {
-          stroke: #FFD000;
-          color: #FFD000;
-          fill: #FFD000;
-          filter: drop-shadow(0 0 5px rgba(255, 208, 0, 0.6));
+          stroke: #FFF4D0;
+          color: #FFF4D0;
+          fill: #FFF4D0;
+          filter: drop-shadow(0 0 5px rgba(255, 244, 208, 0.6));
         }
       }
 
@@ -125,7 +125,7 @@
 
       .chip-text {
         font-family: 'Outfit', -apple-system, sans-serif;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 700;
         letter-spacing: 1.5px;
         text-transform: uppercase;
@@ -193,8 +193,9 @@
     <path d="M 0 216 L 0 186 Q 192 170 384 188 Q 576 206 746 180 Q 810 170 854 184 L 854 216 Z" fill="url(#mountainFront)"/>
   </g>
 
-  <!-- Chip Decorativo Vibrante: "✨ Melhore seu dia" (sem fundo, borda arredondada, cor oscilando) -->
+  <!-- Chip Decorativo Vibrante: "✨ Melhore seu dia" (fundo sutil, borda arredondada, cor oscilando) -->
   <g id="chip-container" transform="translate(427, 150)">
+    <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#000000" opacity="0.08"/>
     <rect x="-85" y="-12" width="170" height="24" rx="12" class="chip-border"/>
     <text x="0" y="0" class="chip-text">✨ Melhore seu dia</text>
   </g>

@@ -18,12 +18,18 @@
   </div>
 </div>
 
+---
+
 <p align="center">
-<img src="https://ghchart.rshah.org/00f0ff/ogutierrezmax" alt="Max's Neon Contribution Graph" />
+  <a href="https://github.com/ogutierrezmax">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ogutierrezmax&theme=tokyonight&hide_border=true&hide_title=true" alt="GitHub Contribution Graph" width="100%" />
+  </a>
 </p>
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</p>
+<div>
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  </p>
+</div>
 <p align="center">
 <img src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" alt="Commits anuais" />
 <img src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Visualizações do Perfil" />
@@ -143,7 +149,6 @@ Sou **Estudante de Engenharia de Software** e desenvolvedor apaixonado por criar
   <img src="https://github-readme-stats-fast.vercel.app/api?username=ogutierrezmax&show_icons=true&include_all_commits=true&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&icon_color=00F0FF&text_color=E0E6ED" alt="Hi-Tech GitHub Stats" height="175" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=ogutierrezmax&layout=compact&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&text_color=E0E6ED" alt="Hi-Tech Top Languages" height="175" />
 </div>
-</details>
 
 ---
 

@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 200" width="100%" height="200">
+  <defs>
+    <!-- Gradiente da Onda do Header (Capsule Render Gradient) -->
+    <linearGradient id="headerLinear" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4568dc"/>
+      <stop offset="100%" stop-color="#b06ab3"/>
+    </linearGradient>
+
+    <!-- Gradiente de Céu de Pôr do Sol (Sunset) -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0B2E"/>
+      <stop offset="30%" stop-color="#4B1248"/>
+      <stop offset="60%" stop-color="#B23A48"/>
+      <stop offset="85%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#F7A072"/>
+    </linearGradient>
+
+    <!-- Gradiente do Sol Suave -->
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF4D0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#FFB347" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#FF5E36" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF5E36" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradiente dos Montes / Silhuetas -->
+    <linearGradient id="mountainBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#671F42" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#2D0B2B" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="mountainFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#20061E"/>
+      <stop offset="100%" stop-color="#0E020D"/>
+    </linearGradient>
+
+    <!-- Efeito de vidro para o card interior -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#140518" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#260A22" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <!-- Máscara com gradiente vertical na base do card de frases -->
+    <linearGradient id="fadeMaskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="25%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="90%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <mask id="verticalFadeMask">
+      <rect x="0" y="80" width="854" height="120" fill="url(#fadeMaskGrad)"/>
+    </mask>
+
+    <!-- Máscara horizontal para desvanecer as laterais do card interior -->
+    <linearGradient id="horizontalFadeMaskGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <mask id="horizontalFadeMask">
+      <rect x="0" y="144" width="854" height="48" fill="url(#horizontalFadeMaskGrad)"/>
+    </mask>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600&amp;display=swap');
+
+      .header-title {
+        font-size: 42px;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        fill: #FFFFFF;
+        animation: fadeIn 1.2s ease-in-out forwards;
+      }
+
+      .header-desc {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        fill: #FFFFFF;
+        animation: fadeIn 1.2s ease-in-out forwards;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .card-title {
+        font-family: 'Outfit', -apple-system, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        fill: #FFD166;
+      }
+
+      .quote-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        fill: #FFFFFF;
+        text-anchor: middle;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+      }
+
+      /* Animação com 6 frases (ciclo total: 30s = 5s por frase) */
+      @keyframes cycleQuotes {
+        0% { opacity: 0; transform: translateY(5px); visibility: hidden; }
+        0.5% { opacity: 0; transform: translateY(5px); visibility: visible; }
+        2.2% { opacity: 1; transform: translateY(0); visibility: visible; }
+        14.4% { opacity: 1; transform: translateY(0); visibility: visible; }
+        16.3% { opacity: 0; transform: translateY(-5px); visibility: visible; }
+        16.66% { opacity: 0; transform: translateY(-5px); visibility: hidden; }
+        100% { opacity: 0; visibility: hidden; }
+      }
+
+      .phrase-1, .phrase-2, .phrase-3, .phrase-4, .phrase-5, .phrase-6 {
+        opacity: 0;
+      }
+
+      .phrase-1 { animation: cycleQuotes 30s infinite 0s; }
+      .phrase-2 { animation: cycleQuotes 30s infinite 5s; }
+      .phrase-3 { animation: cycleQuotes 30s infinite 10s; }
+      .phrase-4 { animation: cycleQuotes 30s infinite 15s; }
+      .phrase-5 { animation: cycleQuotes 30s infinite 20s; }
+      .phrase-6 { animation: cycleQuotes 30s infinite 25s; }
+
+      .sun-pulse {
+        animation: pulseSun 8s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulseSun {
+        0% { r: 58px; opacity: 0.85; }
+        100% { r: 70px; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- ============================================================== -->
+  <!-- CAMADA DE BAIXO: CARD DE FRASES DINÂMICAS (SUNSET & FRASES)     -->
+  <!-- ============================================================== -->
+  <g mask="url(#verticalFadeMask)">
+    <!-- Fundo Sunset da Paisagem -->
+    <rect x="0" y="80" width="854" height="120" fill="url(#skyGrad)"/>
+
+    <!-- Sol no Horizonte -->
+    <circle cx="427" cy="168" r="56" fill="url(#sunGrad)" class="sun-pulse"/>
+
+    <!-- Silhueta dos Montes de Fundo -->
+    <path d="M 0 200 L 0 162 Q 170 142 340 156 Q 510 170 660 152 Q 768 138 854 158 L 854 200 Z" fill="url(#mountainBack)"/>
+
+    <!-- Silhueta dos Montes de Frente -->
+    <path d="M 0 200 L 0 172 Q 192 156 384 174 Q 576 192 746 166 Q 810 156 854 170 L 854 200 Z" fill="url(#mountainFront)"/>
+  </g>
+
+  <!-- Frases Rotativas Dinâmicas (Ciclo de 5s por frase, flutuando sobre a paisagem) -->
+  <g id="quotes-container" transform="translate(427, 174)">
+    <g class="phrase-1">
+      <text y="0" class="quote-text">💧 Lembre-se de beber água e hidratar o corpo.</text>
+    </g>
+    <g class="phrase-2">
+      <text y="0" class="quote-text">✨ Pense em algo bom que te faz feliz e grato hoje.</text>
+    </g>
+    <g class="phrase-3">
+      <text y="0" class="quote-text">💌 Mande uma mensagem de carinho para quem você ama.</text>
+    </g>
+    <g class="phrase-4">
+      <text y="0" class="quote-text">🪑 Ajuste sua postura, relaxe os ombros e respire fundo.</text>
+    </g>
+    <g class="phrase-5">
+      <text y="0" class="quote-text">☕ Faça uma pausa de 5 minutos para descansar a vista.</text>
+    </g>
+    <g class="phrase-6">
+      <text y="0" class="quote-text">🌱 Celebre as pequenas vitórias do seu progresso diário.</text>
+    </g>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- CAMADA DE CIMA: ONDAS ANIMADAS DO HEADER BANNER + TEXTOS       -->
+  <!-- ============================================================== -->
+  <g transform="translate(427, 90) scale(1, 1) translate(-427, -90)">
+    <path d="" fill="url(#headerLinear)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="0s"
+        values="M0 0L 0 100Q 213.5 140 427 110T 854 135L 854 0 Z;M0 0L 0 125Q 213.5 140 427 120T 854 110L 854 0 Z;M0 0L 0 145Q 213.5 115 427 145T 854 110L 854 0 Z;M0 0L 0 100Q 213.5 140 427 110T 854 135L 854 0 Z">
+      </animate>
+    </path>
+    <path d="" fill="url(#headerLinear)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 115Q 213.5 160 427 130T 854 140L 854 0 Z;M0 0L 0 130Q 213.5 100 427 100T 854 120L 854 0 Z;M0 0L 0 125Q 213.5 105 427 130T 854 145L 854 0 Z;M0 0L 0 115Q 213.5 160 427 130T 854 140L 854 0 Z">
+      </animate>
+    </path>
+  </g>
+
+  <text text-anchor="middle" dominant-baseline="middle" x="50%" y="65" class="header-title">Max Gutierrez</text>
+  <text text-anchor="middle" dominant-baseline="middle" x="50%" y="101" class="header-desc">Software Engineering Student | Tooling Builder</text>
+
+</svg>

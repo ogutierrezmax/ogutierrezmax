@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="./assets/svg/header-with-quotes.svg?v=2" width="100%" alt="Max Gutierrez Header & Quotes" />
+</div>
 
 <div align="center">
   <p align="center">

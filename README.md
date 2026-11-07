@@ -28,10 +28,10 @@
     <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" />
   </p>
 </div>
-<p align="center">
+<!-- <p align="center">
 <img alt="Commits anuais" src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" />
 <img alt="Visualizações do Perfil" src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" />
-</p>
+</p> -->
 
 ---
 

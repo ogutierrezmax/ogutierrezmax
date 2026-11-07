@@ -18,12 +18,15 @@
   </div>
 </div>
 
-  <p align="center">
-  <img src="https://ghchart.rshah.org/00f0ff/ogutierrezmax" alt="Max's Neon Contribution Graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-  <img src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" alt="Commits anuais" />
-  <img src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Visualizações do Perfil" />
-
+<p align="center">
+<img src="https://ghchart.rshah.org/00f0ff/ogutierrezmax" alt="Max's Neon Contribution Graph" />
+</p>
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</p>
+<p align="center">
+<img src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" alt="Commits anuais" />
+<img src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Visualizações do Perfil" />
 </p>
 
 ---

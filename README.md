@@ -1,18 +1,18 @@
 <div align="center">
   <div style="position: relative;">
-    <img src="./assets/svg/header-with-quotes.svg?v=2" width="100%" alt="Max Gutierrez Header & Quotes" />
+    <img alt="Max Gutierrez Header & Quotes" src="./assets/svg/header-with-quotes.svg?v=2" width="100%" />
     <div style="position: absolute; top: 12px; left: -12px; z-index: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 4px;">
       <a href="https://instagram.com/ogutierrezmax">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+        <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
       </a>
       <a href="https://github.com/ogutierrezmax">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
+        <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=00F0FF" />
       </a>
       <a href="https://www.linkedin.com/in/max-gutierrez-149885422/">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
       </a>
       <a href="mailto:ogutierrezmax@gmail.com">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
       </a>
     </div>
   </div>
@@ -21,18 +21,16 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/ogutierrezmax">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ogutierrezmax&theme=tokyonight&hide_border=true&hide_title=true" alt="GitHub Contribution Graph" width="100%" />
-  </a>
+
 </p>
 <div>
   <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+    <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ogutierrezmax&theme=tokyonight&hide_border=true&background=0D1117" />
   </p>
 </div>
 <p align="center">
-<img src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" alt="Commits anuais" />
-<img src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Visualizações do Perfil" />
+<img alt="Commits anuais" src="https://img.shields.io/github/commit-activity/y/ogutierrezmax/ogutierrezmax?style=for-the-badge&color=00F0FF&labelColor=0D1117&logo=git&logoColor=00F0FF&label=COMMITS%20ANUAIS" />
+<img alt="Visualizações do Perfil" src="https://komarev.com/ghpvc/?username=ogutierrezmax&color=00F0FF&style=for-the-badge&label=PROFILE+VIEWS" />
 </p>
 
 ---
@@ -55,69 +53,69 @@ Sou **Estudante de Engenharia de Software** e desenvolvedor apaixonado por criar
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" alt="TypeScript" />
+      <img alt="TypeScript" src="https://skillicons.dev/icons?i=ts" width="40" height="40" />
       <br><sub><b>TypeScript</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JavaScript" />
+      <img alt="JavaScript" src="https://skillicons.dev/icons?i=js" width="40" height="40" />
       <br><sub><b>JavaScript</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
+      <img alt="Python" src="https://skillicons.dev/icons?i=python" width="40" height="40" />
       <br><sub><b>Python</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bash" width="40" height="40" alt="Bash" />
+      <img alt="Bash / Linux" src="https://skillicons.dev/icons?i=bash" width="40" height="40" />
       <br><sub><b>Bash / Linux</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React" />
+      <img alt="React" src="https://skillicons.dev/icons?i=react" width="40" height="40" />
       <br><sub><b>React</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="40" height="40" alt="Tailwind" />
+      <img alt="Tailwind CSS" src="https://skillicons.dev/icons?i=tailwind" width="40" height="40" />
       <br><sub><b>Tailwind CSS</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite" width="40" height="40" alt="Vite" />
+      <img alt="Vite" src="https://skillicons.dev/icons?i=vite" width="40" height="40" />
       <br><sub><b>Vite</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" alt="Node.js" />
+      <img alt="Node.js" src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" />
       <br><sub><b>Node.js</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" />
+      <img alt="Git" src="https://skillicons.dev/icons?i=git" width="40" height="40" />
       <br><sub><b>Git</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" />
+      <img alt="VS Code" src="https://skillicons.dev/icons?i=vscode" width="40" height="40" />
       <br><sub><b>VS Code API</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres" width="40" height="40" alt="PostgreSQL" />
+      <img alt="PostgreSQL" src="https://skillicons.dev/icons?i=postgres" width="40" height="40" />
       <br><sub><b>PostgreSQL</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=docker" width="40" height="40" alt="Docker" />
+      <img alt="Docker" src="https://skillicons.dev/icons?i=docker" width="40" height="40" />
       <br><sub><b>Docker</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=notion" width="40" height="40" alt="Notion API" />
+      <img alt="Notion API" src="https://skillicons.dev/icons?i=notion" width="40" height="40" />
       <br><sub><b>Notion API</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=regex" width="40" height="40" alt="Regex" />
+      <img alt="Regex" src="https://skillicons.dev/icons?i=regex" width="40" height="40" />
       <br><sub><b>Automation</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="Linux" />
+      <img alt="Linux / Shell" src="https://skillicons.dev/icons?i=linux" width="40" height="40" />
       <br><sub><b>Linux / Shell</b></sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=githubactions" width="40" height="40" alt="CI/CD" />
+      <img alt="CI/CD" src="https://skillicons.dev/icons?i=githubactions" width="40" height="40" />
       <br><sub><b>CI / CD</b></sub>
     </td>
   </tr>
@@ -146,10 +144,13 @@ Sou **Estudante de Engenharia de Software** e desenvolvedor apaixonado por criar
 --- -->
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=ogutierrezmax&show_icons=true&include_all_commits=true&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&icon_color=00F0FF&text_color=E0E6ED" alt="Hi-Tech GitHub Stats" height="175" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=ogutierrezmax&layout=compact&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&text_color=E0E6ED" alt="Hi-Tech Top Languages" height="175" />
+  <img alt="Hi-Tech GitHub Stats" src="https://github-readme-stats-fast.vercel.app/api?username=ogutierrezmax&show_icons=true&include_all_commits=true&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&icon_color=00F0FF&text_color=E0E6ED" height="175" />
+  <img alt="Hi-Tech Top Languages" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=ogutierrezmax&layout=compact&hide_border=false&border_color=00F0FF&bg_color=050811&title_color=00F0FF&text_color=E0E6ED" height="175" />
 </div>
 
+<a href="https://github.com/ogutierrezmax">
+  <img alt="GitHub Contribution Graph" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ogutierrezmax&theme=tokyonight&hide_border=true&hide_title=true" width="100%" />
+</a>
 ---
 
 <div align="center">
